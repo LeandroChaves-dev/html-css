@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML áudios</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midias/borboletas.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Videos</h1>
+    <p>Reproduzindo videos</p>
+    
+
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/M.png" type="image/png">
+        <img src="imagens/G.png" alt="imagem flexivel">
+    </picture>
+    <picture>
+        <source media="(max-width:250px )" srcset="imagens/lancer100" type="image/png">
+        <source media="(max-width: 500px )" srcset="imagens/lancer250.jpg" type="image/jpg">
+        <img src="imagens/lancer500.jpg" alt="imagem flexivel">
+    </picture>
+    
+</body>
+</html>
