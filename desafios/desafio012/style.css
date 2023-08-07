@@ -7,17 +7,20 @@
 
 body {
     font-family: 'Sriracha','cursive';
+    margin: 0% 0%;
 }
 
 header > h1 {
     color: white;
     font-family: 'Passion One',"cursive";
+    font-size: 3em;
 
 }
 
 header > a {
     color: white;
     font-family: 'Passion One',"cursive";
+    
 }
 
 header {
@@ -34,6 +37,7 @@ header {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
+    
 }
 
 #fundo2 {
@@ -41,6 +45,7 @@ header {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
+    
 }
 
 footer {
@@ -51,12 +56,19 @@ footer {
 
 #fundo1 > p {
     color: white;
-    background-color: rgba(0, 0, 0, 0.199);
+    background-color: rgba(0, 0, 0, 0.144);
+    width: 50%;
+    
+    
+    
     
 }
 
 #conteudo > p {
     color: white;
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 50%;
+    
     
 }
 
