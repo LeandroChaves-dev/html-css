@@ -21,7 +21,7 @@
 
 html, body {
     min-height: 100vh;
-    background-color: white;
+    background-color: darkgrey;
     font-family: var(--fonte1);
 
 }
@@ -73,6 +73,7 @@ section {
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
+    background-color: white;
 
 }
 
