@@ -48,11 +48,23 @@ header a, footer a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
+    
+    
 }
 
-header a:hover, footer a:hover {
+header > a:hover {
+    color: blueviolet;
     text-align: underline;
-}
+    text-decoration: underline;
+    
+    }
+
+    footer > a:hover {
+        color: blueviolet;
+        text-align: underline;
+        text-decoration: underline;
+
+    }
 
 section {
     padding-top: 10vh;
