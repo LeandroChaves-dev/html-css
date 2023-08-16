@@ -57,6 +57,7 @@ header > p > a:hover {
     color: blueviolet;
     text-decoration: underline;
     
+    
     }
 
 section {
@@ -97,6 +98,7 @@ section.imagem > p {
 section#img01 {
     background-image: url('./imagens/background001.jpg');
     background-position: right center;
+    
     
 }
 
